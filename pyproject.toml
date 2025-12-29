@@ -1,0 +1,10 @@
+[project]
+name = "hdl-agent"
+version = "0.1.0"
+description = "AI agent that for chip design"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=2.14.0",
+]

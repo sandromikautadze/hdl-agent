@@ -18,7 +18,30 @@ The final output is a **working Verilog hardware design**, validated by simulati
 
 From this point, the design can be refined, extended with additional functionality, used as a building block in larger hardware systems, or passed to downstream physical design tools (out of scope for this project).
 
-## Example
+# Quickstart
+
+Set up a reproducible development environment:
+```bash 
+uv venv
+source .venv/Scripts/activate   # Windows (Git Bash)
+# source .venv/bin/activate     # macOS / Linux
+
+uv pip install -e .
+```
+Create a local environment configuration:
+```bash
+cp .env.example .env
+```
+Then edit `.env` to add required environment variables (e.g. API keys).
+
+# Repo Structure 
+
+
+
+
+
+
+## Intuitive Example
 
 ### Input
 

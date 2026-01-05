@@ -23,8 +23,8 @@ From this point, the design can be refined, extended with additional functionali
 Set up a reproducible development environment:
 ```bash 
 uv venv
-source .venv/Scripts/activate   # Windows (Git Bash)
-# source .venv/bin/activate     # macOS / Linux
+source .venv/Scripts/activate # Windows (Git Bash)
+# source .venv/bin/activate   # macOS / Linux
 
 uv pip install -e .
 ```
@@ -33,6 +33,11 @@ Create a local environment configuration:
 cp .env.example .env
 ```
 Then edit `.env` to add required environment variables.
+
+Run the agent: 
+```bash 
+python src/main.py
+```
 
 # TODO
 

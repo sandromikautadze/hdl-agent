@@ -1,1 +1,0 @@
-Responsible for taking clarified intent from the PLANNER and producing a frozen specification for the Verilog generation. 
